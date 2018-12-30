@@ -1,0 +1,35 @@
+{
+  "author": {
+    "email": "broyard.dev@gmail.com",
+    "name": "Julien Broyard",
+    "url": "https://github.com/Julien-Broyard"
+  },
+  "bugs": {
+    "email": "broyard.dev@gmail.com",
+    "url": "https://github.com/Julien-Broyard/agence-voyage/issues"
+  },
+  "description": "Site web construit avec Materialize.css",
+  "license": "MIT",
+  "main": "index.html",
+  "name": "agence-voyage",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "yarn development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "yarn watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "yarn production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "cross-env": "^5.2.0",
+    "cssnano": "^4.1.8",
+    "laravel-mix": "^4.0.12",
+    "materialize-css": "^1.0.0",
+    "postcss-font-magician": "^2.2.1",
+    "postcss-import": "^12.0.1"
+  }
+}

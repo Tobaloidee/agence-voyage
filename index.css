@@ -1,0 +1,30 @@
+@import 'materialize-css';
+
+body {
+  font-family: 'Roboto';
+}
+
+.slider .btn {
+  margin-top: 20px;
+}
+
+.section-search input {
+  border: #f4f4f4 3px solid !important;
+  font-size: 18px !important;
+  padding: 5px !important;
+  width: 90% !important;
+}
+
+.autocomplete-content {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.section-contact h5 {
+  margin-bottom: 30px;
+}
